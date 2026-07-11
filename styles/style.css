@@ -1,3 +1,7 @@
+/* google fonts */
+*{
+    font-family: "Inter", sans-serif;
+}
 /* navbar related styles */
 .navbar {
   display: flex;
