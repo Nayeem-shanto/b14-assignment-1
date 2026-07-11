@@ -1,31 +1,62 @@
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px;
+/* navbar related styles */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
 }
-.nav-menu{
-    display: flex;
-    gap: 10px;
+.nav-menu {
+  display: flex;
+  gap: 10px;
 }
-.nav-menu a{
-    text-decoration: none;
+.nav-menu a {
+  text-decoration: none;
 }
-.nav-menu li{
-    list-style: none;
+.nav-menu li {
+  list-style: none;
 }
-.nav-menu li:hover{
-    background-color: aquamarine;
+.nav-menu li:hover {
+  background-color: aquamarine;
 }
-.common-button{
-   color: white;
-   background-color: blue;
-   padding: 10px 20px;
-   border: none;
-   font-size: large;
-   font-weight: bold;
-   border-radius: 10px;
+.common-button {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
 }
-.common-button:hover{
-    background-color: rgb(34, 12, 160);
+.common-button:hover {
+  background-color: rgb(34, 12, 160);
+}
+
+/* hero section styles */
+.hero-container {
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+.hero-container h1{
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.hero-paragraph{
+    font-size: 20px;
+    padding-bottom: 250px;
+}
+.hero-btn{
+    color: white;
+  background-color: blue;
+  padding: 15px 30px;
+  border: none;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 10px;
 }
