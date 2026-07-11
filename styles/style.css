@@ -14,8 +14,18 @@
 .nav-menu li{
     list-style: none;
 }
-.nav-button{
-    background-color: blue;
-    padding: 5px;
-    color: white;
+.nav-menu li:hover{
+    background-color: aquamarine;
+}
+.common-button{
+   color: white;
+   background-color: blue;
+   padding: 10px 20px;
+   border: none;
+   font-size: large;
+   font-weight: bold;
+   border-radius: 10px;
+}
+.common-button:hover{
+    background-color: rgb(34, 12, 160);
 }
